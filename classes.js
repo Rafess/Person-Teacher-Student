@@ -12,17 +12,6 @@ class Person {
         }
    
     makeBio() {
-// //             const male = {pronoun: "he", prefix: "Mr."};
-// //             const female = {pronoun: "she", prefix: "Ms."};
-// //             const other = {pronoun: "they", prefix: "Mx."};
-// //             this.genderHandler = {male, female, other};
-// //             for (let index in this.genderHandler) {
-//             if (this.gender === this.genderHandler[index]) {
-//                 this.genderBio = `${this.name} is ${this.age} years old, ${this.genderHandler[index].pronoun} likes ${this.interests}`;
-//                 return(this.genderBio)
-//             }
-// //         }
-//             return this.genderBio;
         if (this.gender === "male") {
     return (`${this.name} is ${this.age} years old, he likes ${this.interests}`); 
     } else if (this.gender === "female") {
